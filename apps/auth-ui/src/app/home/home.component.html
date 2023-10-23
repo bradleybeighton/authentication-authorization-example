@@ -1,0 +1,5 @@
+<div *ngIf="isAuthenticated" class="home-page">
+  <h1>Welcome, {{ username }}!</h1>
+
+  <button mat-flat-button color="primary" (click)="signOut()">Sign Out</button>
+</div>
